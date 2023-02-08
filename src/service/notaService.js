@@ -8,3 +8,9 @@ export const NotaCreate = async (title, body, userId) => {
   });
   return nota;
 }
+
+export const getNotaUser = async (id) => {
+  const note = await Nota.findById(id)
+  return note;
+}
+
