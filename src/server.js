@@ -3,6 +3,7 @@ import db from './database/db.js';
 import dotenv from 'dotenv';
 import cors from 'cors';
 
+
 /* routes */
 import routes from './routes.js';
 
@@ -11,7 +12,9 @@ import routes from './routes.js';
 const app = express();
 const port = process.env.PORT || 3000;
 dotenv.config();
-app.use(cors());
+app.use(cors({
+  origin: process.env.ORIGIN,
+}));
 db();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }))

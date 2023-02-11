@@ -14,3 +14,12 @@ export const getNotaUser = async (id) => {
   return note;
 }
 
+export const getNotesUser = async (userId) => {
+  const notes = await Nota.find({author: userId})
+
+  return notes;
+}
+
+
+
+

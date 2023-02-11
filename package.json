@@ -5,8 +5,8 @@
   "main": "src/serve.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/serve.js",
-    "start": "node src/serve.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
