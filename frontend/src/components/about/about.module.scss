@@ -1,0 +1,160 @@
+.about {
+  height: 100vh;
+  width: 100%;
+  /* gradiente background com #6f737e e #070705 de cima pra baixo */
+  background-color: linear-gradient(180deg, #6f737e 0%, #070705 100%);
+  margin-top: 2rem;
+  display: flex;
+}
+
+.Content {
+  width: 40%;
+  max-height: 550px;
+  margin-top: 100px;
+  background-color: #c1c0ae;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  margin-left: 50px;
+  transition: all 0.5;
+ 
+
+  .sobre {
+    position: relative;
+    top: -15px;
+    left: -15px;
+    width: 50px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    background-color: #6f737e;
+
+  
+    
+      
+
+
+    p {
+      text-align: center;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      writing-mode: vertical-rl;
+      text-orientation: upright;
+      transition: 0.5s;
+    }
+  }
+  &:hover {
+    box-shadow: 0 0 10px 0 #000;
+    cursor: pointer;
+      p{
+        color: #000;
+      }
+  }
+}
+
+.text {
+  padding: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: #646464;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    max-width: 47rem;
+    transition: 0.5s;
+  }
+  margin: 30px 0 0 0;
+}
+
+.image {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+
+  img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+}
+
+
+
+.porque {
+  width: 40%;
+  max-height: 550px;
+  background-color: #c1c0ae;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  margin: 200px 150px   ;
+  transition: all 0.5;
+ 
+
+  .sobre {
+    position: relative;
+    top: -15px;
+    left: -15px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+    background-color: #6f737e;
+
+  
+    
+      
+
+
+    p {
+      text-align: center;
+      color: #fff;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: 0.5s;
+    }
+  }
+  &:hover {
+    box-shadow: 0 0 10px 0 #000;
+    cursor: pointer;
+      p{
+        color: #000;
+      }
+  }
+}
+
+.text {
+  padding: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    color: #646464;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+    font-size: 1.6rem;
+    max-width: 47rem;
+    transition: 0.5s;
+  }
+  margin: 30px 0 0 0;
+}
